@@ -1,0 +1,31 @@
+# Calculate Big O
+
+# Task0
+This takes runs in O(1).
+This is because there is only an array access and no loop exists.
+
+# Task1
+This takes runs in O(n).
+This is because we are using a loop to access columns in both the "text" and "call" files.
+2*O(n)=O(n)
+
+# Task2
+This takes runs in O(n).
+Throughout, there are two loops, the 'updateDicList' function and
+the 'update dictionary list', but the overall complexity can be
+simplified to O(n).
+
+# Task3
+This takes runs in O(n log n).
+There is a loop of O (n) and a sort method of O (n log n) respectively,
+the total amount of calculation is ’O (n) + O (n log n)',
+This can be simplified to 'O (n log n)'.
+
+# Task4
+This takes runs in O(n log n).
+There are three loops and one sort process,
+the computational complexity is '3 * O (n) + O (n log n)',
+which can be simplified to O (n log n) .
+
+
+
